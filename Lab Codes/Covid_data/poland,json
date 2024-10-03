@@ -1,0 +1,7 @@
+{
+    "country": "Poland",
+    "date": "2020-04-03",
+    "confirmed_cases": {"total": 1700, "new": 29},
+    "details": {"total": 30, "new": 9},
+    "recovered": {"total": 153, "new": 23}
+}

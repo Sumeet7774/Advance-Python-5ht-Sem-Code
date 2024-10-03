@@ -1,0 +1,16 @@
+Sr No,TrainID,Train Name,Source Station,Destination Station,Total Seats,Available Seats
+1,T001,Shatabdi Express,New Delhi,Chandigarh,800,788
+2,T002,Duronto Express,Mumbai Central,Howrah,900,885
+3,T003,Rajdhani Express,Bangalore City,New Delhi,1000,980
+4,T004,Garib Rath,Patna,Delhi,750,745
+5,T005,Vande Bharat,Chhatrapati Shivaji Terminus,Madgaon,600,595
+6,T006,Coromandel Express,Chennai Central,Howrah,950,937
+7,T007,Mangala Lakshadweep Express,Ernakulam,Delhi Hazrat Nizamuddin,700,690
+8,T008,Purushottam Express,Puri,New Delhi,800,793
+9,T009,Vikramshila Express,Bhagalpur,Anand Vihar Terminal,850,845
+10,T010,Madurai Express,Madurai,Chennai Egmore,900,895
+11,T011,Goa Express,Goa,Nizamuddin,750,745
+12,T012,Punjab Mail,Ferozepur,Mumbai,800,790
+13,T013,Mumbai Mail,New Delhi,Mumbai,850,840
+14,T014,Jan Shatabdi,Patna,Kolkata,900,890
+15,T015,Sampark Kranti,Chennai,Delhi,1000,990

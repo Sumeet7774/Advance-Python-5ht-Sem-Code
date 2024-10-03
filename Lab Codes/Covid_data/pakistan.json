@@ -1,0 +1,7 @@
+{
+    "country": "Pakistan",
+    "date": "2020-02-03",
+    "confirmed_cases": {"total": 1800, "new": 36},
+    "details": {"total": 27, "new": 7},
+    "recovered": {"total": 830, "new": 10}
+}

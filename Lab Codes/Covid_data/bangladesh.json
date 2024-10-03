@@ -1,0 +1,7 @@
+{
+    "country": "Bangladesh",
+    "date": "2020-12-08",
+    "confirmed_cases": {"total": 1140, "new": 20},
+    "details": {"total": 25, "new": 3},
+    "recovered": {"total": 300, "new": 23}
+}

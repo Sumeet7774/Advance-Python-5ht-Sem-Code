@@ -1,0 +1,7 @@
+{
+    "country": "Afghanistan",
+    "date": "2020-08-13",
+    "confirmed_cases": {"total": 1250, "new": 20},
+    "details": {"total": 13, "new": 1},
+    "recovered": {"total": 68, "new": 12}
+}

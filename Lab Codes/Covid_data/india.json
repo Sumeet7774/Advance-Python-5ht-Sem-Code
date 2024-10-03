@@ -1,0 +1,7 @@
+{
+    "country": "India",
+    "date": "2020-07-15",
+    "confirmed_cases": {"total": 1000, "new": 50},
+    "details": {"total": 20, "new": 2},
+    "recovered": {"total": 800, "new": 30}
+}

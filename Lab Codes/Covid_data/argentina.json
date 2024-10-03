@@ -1,0 +1,7 @@
+{
+    "country": "Argentina",
+    "date": "2020-09-010",
+    "confirmed_cases": {"total": 1450, "new": 21},
+    "details": {"total": 10, "new": 8},
+    "recovered": {"total": 141, "new": 12}
+}

@@ -6,5 +6,3 @@ password ='lmaoded'
 server = smtplib.SMTP(smtp_server,port)
 server.starttls()
 server.login(sender_email,password)
-
-

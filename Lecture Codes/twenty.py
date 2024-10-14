@@ -19,15 +19,27 @@ def sum_of_primes(start, end, result, index):
 
 def main():
     start_time = time.time()
-    ranges = [(2,2500), (2501,5000), (5001,7500), (7501,10000)]
+    ranges = [(2, 2500), (2501, 5000), (5001, 7500), (7501, 10000)]
     result = [0] * 4
     threads = []
     
-for i,(start,end) in enumerate ranges:
-    thread = Thread(target=sum_of_primes, args=(start, end, result, i))
-    threads.append(thread)
-    thread.start()
+    # Start threads for each range
+    for i, (start, end) in enumerate(ranges):
+        thread = Thread(target=sum_of_primes, args=(start, end, result, i))
+        threads.append(thread)
+        thread.start()
 
-    thread.join()
-    totalsum=sum(result)
-    end_time=time.time()
+    # Wait for all threads to finish
+    for thread in threads:
+        thread.join()
+
+    # Sum the results from all threads
+    totalsum = sum(result)
+    end_time = time.time()
+
+    # Print the result and execution time
+    print(f"Total sum of primes: {totalsum}")
+    print(f"Execution time: {end_time - start_time} seconds")
+
+if __name__ == "__main__":
+    main()
